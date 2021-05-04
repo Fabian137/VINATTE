@@ -1,0 +1,41 @@
+
+/* -------- FOOTER --------*/
+footer{background-color: #121312;}
+.fot{background-color:rgb(32, 35, 41);}
+.footerdis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NVGIK .server-icon {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50%;
+    background: rgb(85, 204, 68);
+}
+.jwJece {
+    margin: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    text-align: center;
+    color:white;
+}
+.NVGIK {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(158, 158, 158);
+}
+.footerdis a{text-align: end;}
+.img-z{width: 18%;}
+/* -------- GLOBAL --------*/
+.contenedor{max-width: 80%;margin: 0 auto;}
+footer, nav{
+    box-shadow: 0 2px 2px 0 rgba(19, 19, 19, 0.157),
+    0 3px 1px -2px rgba(0, 0, 0, 0.116),
+    0 1px 5px 0 rgba(0, 0, 0, 0.219);
+}
+.separador{margin-top: 1.5rem;}
+a{text-decoration: none}
