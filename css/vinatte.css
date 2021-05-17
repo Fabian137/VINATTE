@@ -6,8 +6,8 @@ html {
 body {font-family: 'Source Sans Pro';}
 .btn-xl {padding: 1.25rem 2.5rem;}
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
 }
 .content-section-heading h2 {font-size: 3rem;}
 .content-section-heading h3 {
@@ -163,36 +163,17 @@ h6 {
   display: block;
   max-width: 30rem;
 }
-.portfolio-item {
-  display: block;
-  position: relative;
-  overflow: hidden;
-  max-width: 530px;
-  margin: auto auto 1rem;
-}
-.portfolio-item .caption {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.cards-Layout{
   display: flex;
-  height: 100%;
-  width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  z-index: 1;
+  justify-content: space-evenly;
+  flex-wrap: wrap; 
 }
-.portfolio-item .caption .caption-content {
-  color: #fff;
-  margin: auto 2rem 2rem;
+.card{
+  border: none;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.171);
 }
-.portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
-  text-transform: uppercase;
-}
-.portfolio-item .caption .caption-content p {
-  font-weight: 300;
-  font-size: 1.2rem;
+input{
+  width: 3rem;
 }
 @media (min-width: 992px) {
   .portfolio-item {
