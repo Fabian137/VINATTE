@@ -3,7 +3,8 @@ html {
   width: 100%;
   height: 100%;
 }
-body {font-family: 'Source Sans Pro';}
+body {font-family: 'Source Sans Pro';
+background-color: #f8f9fa;}
 .btn-xl {padding: 1.25rem 2.5rem;}
 .content-section {
   padding-top: 1.5rem;
@@ -23,7 +24,7 @@ h6 {
   font-weight: 700;
 }
 
-.text-faded {color: rgba(255, 255, 255, 0.7);}
+.text-faded {color: #48887b;}
 .scroll-to-top {
   position: fixed;
   right: 15px;
@@ -77,8 +78,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #4141406c;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  background: #d2ac6670;
 }
 .sidebar-nav {
   position: absolute;
@@ -129,39 +129,23 @@ h6 {
   top: 15px;
   width: 50px;
   height: 50px;
-  /* background-color:#fce3b8 */
+  background-color:#D2AC66;
   text-align: center;
   color: rgb(255, 255, 255);
   line-height: 50px;
-  border: 2px solid #D1AC66;
   z-index: 999;
 }
 .menu-toggle:focus, .menu-toggle:hover {color: #fff;}
-.menu-toggle:hover {background: #D1AC66;}
+.menu-toggle:hover {background: #fce3b8;}
 .service-icon {
   background-color: #fff;
-  color: #1D809F;
-  height: 7rem;
-  width: 7rem;
+  color: #48887b;
+  height: 5rem;
+  width: 5rem;
   display: block;
-  line-height: 7.5rem;
+  line-height: 5.5rem;
   font-size: 2.25rem;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-}
-.callout {
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.callout h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem;
+  box-shadow: 0 .5rem 1rem rgba(24, 24, 44, 0.295);
 }
 .cards-Layout{
   display: flex;
@@ -170,42 +154,13 @@ h6 {
 }
 .card{
   border: none;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.171);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.233);
 }
 input{
   width: 3rem;
 }
+
 @media (min-width: 992px) {
-  .portfolio-item {
-    max-width: none;
-    margin: 0;
-  }
-  .portfolio-item .caption {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
-    -webkit-clip-path: inset(0px);
-    clip-path: inset(0px);
-  }
-  .portfolio-item .caption .caption-content {
-    -webkit-transition: opacity 0.25s;
-    transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
-  }
-  .portfolio-item img {
-    -webkit-transition: -webkit-clip-path 0.25s ease-out;
-    -webkit-clip-path: inset(-1px);
-    clip-path: inset(-1px);
-  }
-  .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
-  }
-  .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
-  }
 }
 footer.footer .social-link {
   display: block;
@@ -226,22 +181,13 @@ footer.footer .social-link:hover {
 a {color: #1D809F;}
 a:hover, a:focus, a:active {color: #155d74;}
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
+  background-color: #4c9b8b !important;
+  border-color: #48887B !important;
   color: #fff !important;
 }
-.btn-primary-header{
-  border-color: #D1AC66;
-  color: #fff;
-}
-.btn-primary-header:hover{
-  background-color: #D1AC66;
-  border-color: #ccda0ef1;
-  color: #fff;
-}
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+  background-color: #75AFA5 !important;
+  border-color: #75AFA5 !important;
 }
 .btn-secondary {
   background-color: #ecb807 !important;
@@ -258,6 +204,6 @@ a:hover, a:focus, a:active {color: #155d74;}
   box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
   font-weight: 700;
 }
-.bg-primary {background-color: #1D809F !important;}
-.text-primary {color: #1D809F !important;}
+.bg-primary {background-color: #f8f9fa !important;}
+.text-primary {color: #48887b !important;}
 .text-secondary {color: #ecb807 !important;}
