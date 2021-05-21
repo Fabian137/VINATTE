@@ -42,16 +42,28 @@ h6 {
 .scroll-to-top i {font-weight: 800;}
 
 .masthead {
-  min-height: 30rem;
+  height: 100vh;
   position: relative;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/headerimg.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/headerimg.jpg");
+  background: url("../img/headerimg.jpg"); /*Se ve cool con otros fondos*/
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.mastheadc{
+  position: relative;
+  width: 100%;
+  background-image: url("../img/imgave.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 27vh;
+  background-color: #ecebf0;
+  box-shadow: 0 0.5rem 1rem rgb(21 24 44 / 12%);
+}
+.logo-headerC{
+  width: 15%;
+}
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
@@ -66,6 +78,17 @@ h6 {
     font-size: 5.5rem;
   }
 }
+@media (min-width: 320px){
+  .img-z {width: 90%;}
+}
+.mainfooter{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    height: 30vh;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../img/imgave.jpg");
+    background-position: right;
+}
 
 /* Side Menu */
 #sidebar-wrapper {
@@ -78,7 +101,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #d2ac6670;
+  background: #eca92c99;
 }
 .sidebar-nav {
   position: absolute;
@@ -154,7 +177,7 @@ h6 {
 }
 .card{
   border: none;
-  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.233);
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.35);
 }
 input{
   width: 3rem;
