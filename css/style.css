@@ -1,6 +1,9 @@
 /* -------- FOOTER --------*/
 footer{background-color: #121312;}
-.fot{background-color:rgb(32, 35, 41);}
+.fot{
+    background-color:rgba(32, 35, 41, 0.295);
+    padding: 0 10%;
+}
 .footerdis{
     display: flex;
     justify-content: space-between;
@@ -34,6 +37,3 @@ footer{background-color: #121312;}
 .separador{margin-top: 1.5rem;}
 a{text-decoration: none}
 /*--------HEADER---------*/
-.logo-header{
-    width: 40%;
-}

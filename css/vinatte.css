@@ -45,8 +45,8 @@ h6 {
   height: 100vh;
   position: relative;
   width: 100%;
-  background: url("../img/headerimg.jpg"); /*Se ve cool con otros fondos*/
-  background-position: center center;
+  background: url("../img/image.jpg"); /*Se ve cool con otros fondos*/
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -61,9 +61,7 @@ h6 {
   background-color: #ecebf0;
   box-shadow: 0 0.5rem 1rem rgb(21 24 44 / 12%);
 }
-.logo-headerC{
-  width: 15%;
-}
+
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
@@ -78,16 +76,39 @@ h6 {
     font-size: 5.5rem;
   }
 }
+.img-z {width: 2.25rem;}
+@media (min-width: 450px){
+  .ideals-order{
+    justify-content: space-around;
+  }
+}
 @media (min-width: 320px){
-  .img-z {width: 90%;}
+  .mbicon{width: 40%;}
+  .ideals-order{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .my-auto {
+    margin-top: 0 !important;
+}
+.logo-header{
+  width: 15rem;
+}
+}
+@media (min-width: 580px){
+  .col-md-6{width: 50%;}
 }
 .mainfooter{
     display: flex;
-    align-items: center;
-    padding: 0 10%;
+    /* padding: 0 10%; */
     height: 30vh;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../img/imgave.jpg");
-    background-position: right;
+    background-position: top;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 /* Side Menu */
