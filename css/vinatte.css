@@ -67,42 +67,9 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
-@media (min-width: 992px) {
-  .masthead {
-    height: 100vh;
-  }
-  .masthead h1 {
-    font-size: 5.5rem;
-  }
-}
 .img-z {width: 2.25rem;}
-@media (min-width: 450px){
-  .ideals-order{
-    justify-content: space-around;
-  }
-}
-@media (min-width: 320px){
-  .mbicon{width: 40%;}
-  .ideals-order{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: baseline;
-  }
-  .my-auto {
-    margin-top: 0 !important;
-}
-.logo-header{
-  width: 15rem;
-}
-}
-@media (min-width: 580px){
-  .col-md-6{width: 50%;}
-}
 .mainfooter{
     display: flex;
-    /* padding: 0 10%; */
     height: 30vh;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../img/imgave.jpg");
     background-position: top;
@@ -200,12 +167,7 @@ h6 {
   border: none;
   box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.35);
 }
-input{
-  width: 3rem;
-}
-
-@media (min-width: 992px) {
-}
+input{width: 3rem;}
 footer.footer .social-link {
   display: block;
   height: 4rem;
