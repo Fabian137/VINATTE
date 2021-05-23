@@ -2,33 +2,53 @@ var productos =[
   {
     "producto": "Gran Reserva",
     "precio": 5000,
-    "img": "img/calzado-BG.jpg"
+    "img": "img/botella/Gran Reserva.png"
   },
   {
     "producto": "Chardonnay",
     "precio": 9000,
-    "img": "img/calzado-Bla.jpg"
+    "img": "img/botella/Chardonnay.png"
   },
   {
     "producto": "Especial",
     "precio": 900,
-    "img": "img/calzadoLgiht.jpg"
-  },
-  {
-    "producto": "Tradicional",
-    "precio": 1500,
-    "img": "img/calzado-running.jpg"
+    "img": "img/botella/Especial.png"
   },
   {
     "producto": "Centenario Plata",
     "precio": 3600,
-    "img": "img/calzado-runningGrey.jpg"
-  }/*,
+    "img": "img/botella/Centenario Plata.png"
+  },
   {
-    "producto": "Nike Shoes 06",
+    "producto": "Chenin Blanc",
+    "precio": 2000,
+    "img": "img/botella/Chenin Blanc.png"
+  },
+  {
+    "producto": "Cabernet Sauvignon",
     "precio": 1000,
-    "img": "img/calzado-runningLight.jpg"
-  }*/
+    "img": "img/botella/Cabernet Sauvignon.png"
+  },
+  {
+    "producto": "Centenario Reposado",
+    "precio": 6500,
+    "img": "img/botella/Centenario Reposado.png"
+  },
+  {
+    "producto": "Vino de uva Chenin Blanc",
+    "precio": 870,
+    "img": "img/botella/Vino De Una Chenin Blanc.png"
+  },
+  {
+    "producto": "Vino de uva Albariño",
+    "precio": 1560,
+    "img": "img/botella/Vino de Uva Albariño.png"
+  },
+  {
+    "producto": "Vino de uva Pinot Blanc",
+    "precio": 8500,
+    "img": "img/botella/Vino de Uva Pinot Blanc.png"
+  },
 ]
 var cards = document.getElementById('cards')
 var total = 0;

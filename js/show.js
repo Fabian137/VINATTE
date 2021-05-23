@@ -1,31 +1,30 @@
-// Aqui es lo del catálogo de muestra, pero para que no choque con el de verdad
 var productos =[
-    {
-      "producto": "Gran Reserva",
-      "precio": 5000,
-      "img": "img/calzado-BG.jpg"
-    },
-    {
-      "producto": "Chardonnay",
-      "precio": 9000,
-      "img": "img/calzado-Bla.jpg"
-    },
-    {
-      "producto": "Especial",
-      "precio": 900,
-      "img": "img/calzadoLgiht.jpg"
-    },
-    {
-      "producto": "Tradicional",
-      "precio": 1500,
-      "img": "img/calzado-running.jpg"
-    },
-    {
-      "producto": "Centenario Plata",
-      "precio": 3600,
-      "img": "img/calzado-runningGrey.jpg"
-    }
-  ];
+  {
+    "producto": "Gran Reserva",
+    "precio": 5000,
+    "img": "img/botella/Gran Reserva.png"
+  },
+  {
+    "producto": "Chardonnay",
+    "precio": 9000,
+    "img": "img/botella/Chardonnay.png"
+  },
+  {
+    "producto": "Especial",
+    "precio": 900,
+    "img": "img/botella/Especial.png"
+  },
+  {
+    "producto": "Centenario Plata",
+    "precio": 3600,
+    "img": "img/botella/Centenario Plata.png"
+  },
+  {
+    "producto": "Paloma",
+    "precio": 5980,
+    "img": "img/botella/Paloma.png"
+  }
+];
   var cardsP = document.getElementById('cardsP');
   var total = 0;
   

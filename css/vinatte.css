@@ -99,6 +99,9 @@ h6 {
   padding: 0;
   list-style: none;
 }
+.logo-headerC{
+  width: 14rem;
+}
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
