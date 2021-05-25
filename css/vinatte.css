@@ -45,7 +45,7 @@ h6 {
   height: 100vh;
   position: relative;
   width: 100%;
-  background: url("../img/image.jpg"); /*Se ve cool con otros fondos*/
+  background: url("../img/wines.jpg"); /*Se ve cool con otros fondos*/
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,6 +107,11 @@ h6 {
   text-decoration: none;
   color: #fff;
   padding: 15px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .sidebar-nav li a:hover {
   text-decoration: none;

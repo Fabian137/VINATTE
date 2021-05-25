@@ -15,8 +15,18 @@ var productos =[
     "img": "img/botella/Especial.png"
   },
   {
+    "producto": "Tradicional",
+    "precio": 1500,
+    "img": "img/botella/Tradicional.png"
+  },
+  {
     "producto": "Centenario Plata",
     "precio": 3600,
+    "img": "img/botella/Centenario Plata.png"
+  },
+  {
+    "producto": "Paloma",
+    "precio": 5980,
     "img": "img/botella/Centenario Plata.png"
   },
   {
@@ -30,14 +40,34 @@ var productos =[
     "img": "img/botella/Cabernet Sauvignon.png"
   },
   {
+    "producto": "Tequila Reposado",
+    "precio": 2500,
+    "img": "img/botella/Tequila Reposado.png"
+  },
+  {
+    "producto": "Tequila Añejo",
+    "precio": 5000,
+    "img": "img/botella/Tequila Añejo.png"
+  },
+  {
+    "producto": "Tequila Extra Añejo",
+    "precio": 7500,
+    "img": "img/botella/Tequila Extra Añejo.png"
+  },
+  {
     "producto": "Centenario Reposado",
     "precio": 6500,
     "img": "img/botella/Centenario Reposado.png"
   },
   {
-    "producto": "Vino de uva Chenin Blanc",
-    "precio": 870,
-    "img": "img/botella/Vino De Una Chenin Blanc.png"
+    "producto": "Maestro Tequilero",
+    "precio": 7000,
+    "img": "img/botella/Maestro Tequilero.png"
+  },
+  {
+    "producto": "Clásico",
+    "precio": 1000,
+    "img": "img/botella/Clásico.png"
   },
   {
     "producto": "Vino de uva Albariño",
@@ -45,9 +75,29 @@ var productos =[
     "img": "img/botella/Vino de Uva Albariño.png"
   },
   {
+    "producto": "Vino De Uva Albillo",
+    "precio": 880,
+    "img": "img/botella/Vino De Uva Albillo.png"
+  },
+  {
+    "producto": "Vino De Uva Chardonnay",
+    "precio": 7106,
+    "img": "img/botella/Vino De Uva Chardonnay.png"
+  },
+  {
+    "producto": "Vino de uva Chenin Blanc",
+    "precio": 870,
+    "img": "img/botella/Vino De Uva Chenin Blanc.png"
+  },
+  {
     "producto": "Vino de uva Pinot Blanc",
     "precio": 8500,
-    "img": "img/botella/Vino de Uva Pinot Blanc.png"
+    "img": "img/botella/Vino de una Pinot Blanc.png"
+  },
+  {
+    "producto": "...",
+    "precio": '...',
+    "img": "img/botella/Dos lunas.png"
   },
 ]
 var cards = document.getElementById('cards')
