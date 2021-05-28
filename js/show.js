@@ -1,27 +1,27 @@
 var productos =[
   {
     "producto": "Gran Reserva",
-    "precio": 5000,
+    "precio": 403.65,
     "img": "img/botella/Gran Reserva.png"
   },
   {
     "producto": "Chardonnay",
-    "precio": 9000,
+    "precio": 465,
     "img": "img/botella/Chardonnay.png"
   },
   {
     "producto": "Especial",
-    "precio": 900,
+    "precio": 499,
     "img": "img/botella/Especial.png"
   },
   {
     "producto": "Centenario Plata",
-    "precio": 3600,
+    "precio": 320,
     "img": "img/botella/Centenario Plata.png"
   },
   {
     "producto": "Paloma",
-    "precio": 5980,
+    "precio": 300,
     "img": "img/botella/Paloma.png"
   }
 ];
