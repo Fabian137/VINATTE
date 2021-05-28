@@ -1,97 +1,97 @@
 var productos =[
   {
     "producto": "Gran Reserva",
-    "precio": 5000,
+    "precio": 403.65,
     "img": "img/botella/Gran Reserva.png"
   },
   {
     "producto": "Chardonnay",
-    "precio": 9000,
+    "precio": 465,
     "img": "img/botella/Chardonnay.png"
   },
   {
     "producto": "Especial",
-    "precio": 900,
+    "precio": 499,
     "img": "img/botella/Especial.png"
   },
   {
     "producto": "Tradicional",
-    "precio": 1500,
+    "precio": 400,
     "img": "img/botella/Tradicional.png"
   },
   {
     "producto": "Centenario Plata",
-    "precio": 3600,
+    "precio": 320,
     "img": "img/botella/Centenario Plata.png"
   },
   {
     "producto": "Paloma",
-    "precio": 5980,
+    "precio": 300,
     "img": "img/botella/Paloma.png"
   },
   {
     "producto": "Chenin Blanc",
-    "precio": 2000,
+    "precio": 400,
     "img": "img/botella/Chenin Blanc.png"
   },
   {
     "producto": "Cabernet Sauvignon",
-    "precio": 1000,
+    "precio": 450,
     "img": "img/botella/Cabernet Sauvignon.png"
   },
   {
     "producto": "Tequila Reposado",
-    "precio": 2500,
+    "precio": 350,
     "img": "img/botella/Tequila Reposado.png"
   },
   {
     "producto": "Tequila Añejo",
-    "precio": 5000,
+    "precio": 470,
     "img": "img/botella/Tequila Añejo.png"
   },
   {
     "producto": "Tequila Extra Añejo",
-    "precio": 7500,
+    "precio": 650,
     "img": "img/botella/Tequila Extra Añejo.png"
   },
   {
     "producto": "Centenario Reposado",
-    "precio": 6500,
+    "precio": 400,
     "img": "img/botella/Centenario Reposado.png"
   },
   {
     "producto": "Maestro Tequilero",
-    "precio": 7000,
+    "precio": 370,
     "img": "img/botella/Maestro Tequilero.png"
   },
   {
     "producto": "Clásico",
-    "precio": 1000,
+    "precio": 320,
     "img": "img/botella/Clásico.png"
   },
   {
     "producto": "Vino de uva Albariño",
-    "precio": 1560,
+    "precio": 403,
     "img": "img/botella/Vino de Uva Albariño.png"
   },
   {
     "producto": "Vino De Uva Albillo",
-    "precio": 880,
+    "precio": 550,
     "img": "img/botella/Vino De Uva Albillo.png"
   },
   {
     "producto": "Vino De Uva Chardonnay",
-    "precio": 7106,
+    "precio": 450,
     "img": "img/botella/Vino De Uva Chardonnay.png"
   },
   {
     "producto": "Vino de uva Chenin Blanc",
-    "precio": 870,
+    "precio": 560,
     "img": "img/botella/Vino De Uva Chenin Blanc.png"
   },
   {
     "producto": "Vino de uva Pinot Blanc",
-    "precio": 8500,
+    "precio": 422,
     "img": "img/botella/Vino de una Pinot Blanc.png"
   },
   {
