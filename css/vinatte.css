@@ -116,7 +116,7 @@ h6 {
   display:flex;
   justify-content: center;
   align-items: flex-start;
-  width:90%;
+  width:100%;
 }
 .card-body {
   display: flex;
