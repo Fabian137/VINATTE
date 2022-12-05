@@ -45,7 +45,7 @@ h6 {
   height: 100vh;
   position: relative;
   width: 100%;
-  background: url("../img/wines.jpg"); /*Se ve cool con otros fondos*/
+  background: url("../img/imgave.jpg"); /*Se ve cool con otros fondos*/
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +93,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #eca92c99;
+  background: #47867ad1;
 }
 .sidebar-nav {
   position: absolute;
@@ -104,13 +104,19 @@ h6 {
   list-style: none;
 }
 .logo-headerC{
-  width: 14rem;
+  width: 25rem;
 }
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
   color: #fff;
   padding: 15px;
+}
+.center-top{
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  width:90%;
 }
 .card-body {
   display: flex;
@@ -152,14 +158,14 @@ h6 {
   top: 15px;
   width: 50px;
   height: 50px;
-  background-color:#D2AC66;
+  background-color:#44c294;
   text-align: center;
   color: rgb(255, 255, 255);
   line-height: 50px;
   z-index: 999;
 }
 .menu-toggle:focus, .menu-toggle:hover {color: #fff;}
-.menu-toggle:hover {background: #fce3b8;}
+.menu-toggle:hover {background: #9bbdd9;}
 .service-icon {
   background-color: #fff;
   color: #48887b;
